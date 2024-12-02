@@ -22,12 +22,16 @@ This project will be completed in phases. The first phase will be to work on thi
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
+- Tiles: detects whether it's hit, disappears when hit, comes back when game is reset.
+- Ball: starts in the middle, bounces when it touches the paddle, walls, and tiles.
+- Paddle: starts in the middle, follows the mouse's horizontal movements, bounces the ball, doesn't go out of bound.
+- Reset: all tiles come bac, ball and paddle start in the middle.
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- Scoring: higher tiles give more points.
+- Ball Speed: each time the ball hits the paddle, its speed increase by ...
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -43,23 +47,23 @@ How will you be using arrays in this project?
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- SPACE to reset game.
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: Paddle follows the mouse's x-coordinates.
+- Mouse pressed: Starts game.
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS Tiles
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
 
-CLASS NAME1
+CLASS Ball
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
