@@ -40,7 +40,7 @@ How will you be using arrays in this project?
 - YOUR ANSER HERE
 
 2D Array:
-- YOUR ANSWER HERE
+- Tiles
 
 
 ### Controls
@@ -59,12 +59,21 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS Tiles
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Size
+  - Hit (boolean)
+  - Rows
+  - Columns
+  - Colors
+  - Points worth
 - METHODS
-  - LIST METHODS HERE
+  - Constructor
+  - Display
+  - Hit (boolean)
 
 CLASS Ball
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Size
+  - Speed
 - METHODS
-  - LIST METHODS HERE
+  - Constructor
+  - 
