@@ -31,7 +31,8 @@ What are the core features that your program should have? These should be things
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
 - Scoring: higher tiles give more points.
-- Ball Speed: each time the ball hits the paddle, its speed increase by ...
+- Ball Speed: each time the ball hits the paddle, its speed increase by 0.05
+- Difficulty: player gets to choose bewtween 3 levels. Each level doubles the rows of bricks and the paddle decreases in width.
 
 ### Array Usage
 How will you be using arrays in this project?
