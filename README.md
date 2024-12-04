@@ -32,13 +32,13 @@ What are some features that are not essential to the program, but you would like
 
 - Scoring: higher tiles give more points.
 - Ball Speed: each time the ball hits the paddle, its speed increase by 0.05
-- Difficulty: player gets to choose bewtween 3 levels. Each level doubles the rows of bricks and the paddle decreases in width.
+- Difficulty: player gets to choose bewtween 3 levels. Each level doubles the rows of bricks and the paddle decreases in width, or maybe adds balls... MAYBE WE CAN MAKE THEM DIFFICULTIES THAT TOGGLE RATHER THAN INDIVIDUAL LEVELS!
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- Difficulty levels
+- Difficulty levels (more balls????)
 
 2D Array:
 - Tiles
@@ -64,7 +64,7 @@ CLASS Tiles
   - Hit (boolean)
   - Rows
   - Columns
-  - Colors
+  - Colors (BASED ON COLOR WE CAN CHANGE THE SCORE WITHOUT HAVING A DIFFERENT VARIABLE FOR POINTS)
   - Points worth
 - METHODS
   - Constructor
