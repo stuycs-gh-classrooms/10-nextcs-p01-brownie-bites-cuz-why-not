@@ -20,9 +20,8 @@ This project will be completed in phases. The first phase will be to work on thi
 #### Selected Project: BREAKOUT / ARKANOID
 
 ### Necessary Features
-What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-- Tiles: detects whether it's hit, disappears when hit, comes back when game is reset.
+- Tiles: bricks that appear on the top and detect whether they've been hit, disappear when hit, & come back when game is reset.
 - Ball: starts in the middle, bounces when it touches the paddle, walls, and tiles.
 - Paddle: starts in the middle, follows the mouse's horizontal movements, bounces the ball, doesn't go out of bound.
 - Reset: all tiles come bac, ball and paddle start in the middle.
