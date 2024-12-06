@@ -11,7 +11,8 @@ void setup() {
   num_rows = 3;
   num_cols = 6;
   
-  projectile = new Brick[num_rows][num_cols];
+  brick_tiles = new Brick[num_rows][num_cols];
+  projectile = new Ball();
 
 }
 
