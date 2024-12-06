@@ -1,2 +1,6 @@
 //CLASS BRICK
+class Brick {
+  
+  
+}
 
